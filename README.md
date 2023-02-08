@@ -109,6 +109,12 @@ git clone https://github.com/toml-f/toml-f
 cd toml-f
 ```
 
+#### Building with Visual Studio
+
+If starting from scratch, create a new project with the _Static Library_ template, then 'Add Files From Existing Folder' and select the 'src' folder of the project.
+
+Otherwise, open the project you are working on and go to `Files`->`Add`->`Existing Project` and select the `.vproj` in the toml-f folder `visual-studio`. Then, on right click on the Solution (right side of the UI in the default layout), then _Project Dependencies_ and select toml-f as a dependency of your project.
+
 #### Building with meson
 
 To integrate TOML Fortran in your meson project checkout the [Integrate with meson](https://toml-f.readthedocs.io/en/latest/how-to/integration.html#integrate-with-meson) recipe.
