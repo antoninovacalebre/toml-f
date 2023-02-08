@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{2D06A286-A0BC-4F8C-98A8-AAC5751DDD20}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="Debug|x64" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="Release|Win32" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration>
+		<Configuration Name="Release|x64" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLibrarianTool"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\..\src\tomlf\de\abc.f90"/>
+		<File RelativePath="..\..\src\tomlf\all.f90"/>
+		<File RelativePath="..\..\src\tomlf\build\array.f90"/>
+		<File RelativePath="..\..\src\tomlf\type\array.f90"/>
+		<File RelativePath="..\..\src\tomlf\structure\array_list.f90"/>
+		<File RelativePath="..\..\src\tomlf\build.f90"/>
+		<File RelativePath="..\..\src\tomlf\constants.f90"/>
+		<File RelativePath="..\..\src\tomlf\de\context.f90"/>
+		<File RelativePath="..\..\src\tomlf\datetime.f90"/>
+		<File RelativePath="..\..\src\tomlf\de.f90"/>
+		<File RelativePath="..\..\src\tomlf\diagnostic.f90"/>
+		<File RelativePath="..\..\src\tomlf\error.f90"/>
+		<File RelativePath="..\..\src\tomlf\utils\io.f90"/>
+		<File RelativePath="..\..\src\tomlf\build\keyval.f90"/>
+		<File RelativePath="..\..\src\tomlf\type\keyval.f90"/>
+		<File RelativePath="..\..\src\tomlf\de\lexer.f90"/>
+		<File RelativePath="..\..\src\tomlf\structure\list.f90"/>
+		<File RelativePath="..\..\src\tomlf\structure\map.f90"/>
+		<File RelativePath="..\..\src\tomlf\build\merge.f90"/>
+		<File RelativePath="..\..\src\tomlf\structure\node.f90"/>
+		<File RelativePath="..\..\src\tomlf\structure\ordered_map.f90"/>
+		<File RelativePath="..\..\src\tomlf\de\parser.f90"/>
+		<File RelativePath="..\..\src\tomlf\build\path.f90"/>
+		<File RelativePath="..\..\src\tomlf\ser.f90"/>
+		<File RelativePath="..\..\src\tomlf\utils\sort.f90"/>
+		<File RelativePath="..\..\src\tomlf\structure.f90"/>
+		<File RelativePath="..\..\src\tomlf\build\table.f90"/>
+		<File RelativePath="..\..\src\tomlf\type\table.f90"/>
+		<File RelativePath="..\..\src\tomlf\terminal.f90"/>
+		<File RelativePath="..\..\src\tomlf\de\token.f90"/>
+		<File RelativePath="..\..\src\tomlf.f90"/>
+		<File RelativePath="..\..\src\tomlf\type.f90"/>
+		<File RelativePath="..\..\src\tomlf\utils.f90"/>
+		<File RelativePath="..\..\src\tomlf\type\value.f90"/>
+		<File RelativePath="..\..\src\tomlf\version.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

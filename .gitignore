@@ -1,3 +1,5 @@
+.vs*
+
 # Prerequisites
 *.d
 
@@ -34,3 +36,6 @@
 # Directories
 /build*/
 /_*/
+
+# Visual Studio
+visual-studio/toml-f/x64/
